@@ -1,135 +1,19 @@
-    1  ls -al
-    2  git brauch Test
-    3  cd git-branch
-    4  echo "# git-branch" >> README.md
-    5  git init
-    6  git add README.md
-    7  git commit -m "first commit"
-    8  git branch -M main
-    9  git remote add origin https://github.com/AyubGrossmann/git-branch.git
-   10  git push -u origin main
-   11  git checkout -b gitignore
-   12  echo ".log
-   13  *.tmp
-   14  __pycache__/
-   15  *.puc" > .gitignore
-   16  git add .gitignore
-   17  git add .gitignore git commit -m "Added .gitignore" git push -u origin gitignore
-   18  git commit -m "Added .gitignore"
-   19  git push -u origin gitignore
-   20  git status
-   21  cp /opt/060326-ptm
-   22  mkdir /opt/060326-ptm/Ayub
-   23  mkdir /opt/060326-ptm/Ayub/FILES
-   24   cannot create directory ‘/opt/060326-ptm/Ayub/FILES’: No such file or director
-   25  clerea
-   26  tr -dc 'A-Za-z0-9!@#$%^&*()_-' < /dev/urandom | head -c 10 ; echo
-   27  cd 060326-ptm/
-   28  mkdir 060326-ptm/
-   29  cd 060326-ptm/
-   30  git checkout -b test-merge
-   31  ls -al
-   32  mrdir file.txt
-   33  echo "============" >> .
-   34  echo "============" >> date.txt
-   35  ls -al
-   36  cat date.txt
-   37  git log
-   38  git log --online
-   39  git merge test-merge
-   40  git chechout test-merge
-   41  git checkout test-merge
-   42  ls -al
-   43  echo "test" >> new file.txt
-   44  ls -al
-   45  git status
-   46  git log --oneline
-   47  ls -al
-   48  Added .gitignore
-   49  git checkout main
-   50  git log --oneline
-   51  git commit -am "Wolf"
-   52  git abb
-   53  git --help
-   54  git -v
-   55  git -c
-   56  git -c <name>=<value>
-   57  git -c <name>=<value
-   58  git -c name
-   59  clear
-   60  git branch
-   61  git branch -a
-   62  git branch Nochscho_95
-   63  git checkout Nochscho_95
-   64  git ls -al
-   65  ls -al
-   66  cat  /c/Users/ICH/AppData/Roaming/Microsoft/Windows/SendTo/
-   67  cat SendTo
-   68  clear
-   69  git log --oneline --all
-   70  git branch -m Nochscho_95_Nochtscho_95
-   71  git branch
-   72  git branch -m Nochtscho_95
-   73  git branch
-   74  git rebase
-   75  cat Nochtscho_95
-   76  mkdir linux-hw12
-   77  cd linux-hw12
-   78  git init
-   79  touch README.md
-   80  touch .gitignore
-   81  git add .
-   82  git commit -m "Initial commit"
-   83  git remote add origin https://github.com/USERNAME/linux-hw12.git
-   84  git branch -M main
-   85  git push -u origin main
-   86  mkdir linux-hw12
-   87  cd linux-hw12
-   88  touch README.md
-   89  touch .gitignore
-   90  git add .
-   91  git commit -m "Initial commit"
-   92  cd ~
-   93  mkdir linux-hw12
-   94  cd linux-hw12
-   95  git init
-   96  touch README.md
-   97  touch .gitignore
-   98  git add README.md .gitignore
-   99  git commit -m "Initial commit"
-  100  git branch -M main
-  101  git remote add origin https://github.com/AyubGrossmann/linux-hw12.git
-  102  git push -u origin main
-  103  git checkout -b feature
-  104  echo "# Linux HW12" >> README.md
-  105  echo "Feature branch changes" >> README.md
-  106  echo "__pycache__/" >> .gitignore
-  107  echo "*.pyc" >> .gitignore
-  108  git add README.md .gitignore
-  109  git commit -m "feature changes"
-  110  git push origin feature
-  111  git commit --amend -m "feature changes amend"
-  112  git push --force origin feature
-  113  git checkout main
-  114  git merge feature
-  115  git push origin main
-  116  history > history.txt
-  117  git add history.txt
-  118  git commit -m "add history file"
-  119  git push origin main
-  120  cd ~
-  121  git clone https://github.com/AyubGrossmann/linux-hw12.git
-  122  cd linux-hw12
-  123  git checkout -b feature
-  124  echo "# Linux HW12" >> README.md
-  125  echo "__pycache__/" >> .gitignore
-  126  echo "*.pyc" >> .gitignore
-  127  git add README.md .gitignore
-  128  git commit -m "feature changes"
-  129  git push origin feature
-  130  git commit --amend -m "feature changes amend"
-  131  git push --force origin feature
-  132  git checkout main
-  133  git merge feature
-  134  git push origin main
-  135  history > history.txt
+
+  1  git branch -M main
+  2  git remote add origin https://github.com/AyubGrossmann/linux-hw12.git
+  3  git push -u origin main
+  4  git checkout -b feature
+  5  echo "# Linux HW12" >> README.md
+  6  echo "Feature branch changes" >> README.md
+  7  echo "__pycache__/" >> .gitignore
+  8  echo "*.pyc" >> .gitignore
+  9  git add README.md .gitignore
+  10  git commit -m "feature changes"
+  11  git push origin feature
+  12  git checkout main
+  13  git merge feature
+  14  git push origin main
+  15  history > history.txt
+  16  git add history.txt
+  17  git commit -m "add history file"
+  18  git push origin main
