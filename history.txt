@@ -1,19 +1,24 @@
+git branch -M main
+git remote add origin https://github.com/AyubGrossmann/linux-hw12.git
+git push -u origin main
 
-  1  git branch -M main
-  2  git remote add origin https://github.com/AyubGrossmann/linux-hw12.git
-  3  git push -u origin main
-  4  git checkout -b feature
-  5  echo "# Linux HW12" >> README.md
-  6  echo "Feature branch changes" >> README.md
-  7  echo "__pycache__/" >> .gitignore
-  8  echo "*.pyc" >> .gitignore
-  9  git add README.md .gitignore
-  10  git commit -m "feature changes"
-  11  git push origin feature
-  12  git checkout main
-  13  git merge feature
-  14  git push origin main
-  15  history > history.txt
-  16  git add history.txt
-  17  git commit -m "add history file"
-  18  git push origin main
+git checkout -b feature
+
+echo "# Linux HW12" >> README.md
+echo "Feature branch changes" >> README.md
+
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+
+git add README.md .gitignore
+git commit -m "feature changes"
+git push origin feature
+
+git checkout main
+git merge feature
+git push origin main
+
+history > history.txt
+git add history.txt
+git commit -m "add history file"
+git push origin main
