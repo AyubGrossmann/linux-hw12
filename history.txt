@@ -114,3 +114,22 @@
   114  git merge feature
   115  git push origin main
   116  history > history.txt
+  117  git add history.txt
+  118  git commit -m "add history file"
+  119  git push origin main
+  120  cd ~
+  121  git clone https://github.com/AyubGrossmann/linux-hw12.git
+  122  cd linux-hw12
+  123  git checkout -b feature
+  124  echo "# Linux HW12" >> README.md
+  125  echo "__pycache__/" >> .gitignore
+  126  echo "*.pyc" >> .gitignore
+  127  git add README.md .gitignore
+  128  git commit -m "feature changes"
+  129  git push origin feature
+  130  git commit --amend -m "feature changes amend"
+  131  git push --force origin feature
+  132  git checkout main
+  133  git merge feature
+  134  git push origin main
+  135  history > history.txt
